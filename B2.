@@ -1,0 +1,23 @@
+
+
+<?php
+
+
+
+ $xml_parser=xml_parser_create();
+
+ $xml_file=fopen("movie.xml","r") or die("error");
+
+ $xml_data=fread($xml_file,4096);
+
+ 
+
+ xml_parse_into_struct($xml_parser,$xml_data,$values);
+
+ xml_parser_free($xml_parser);
+
+ print_r($values);
+
+
+
+?> 
