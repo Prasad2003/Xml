@@ -1,0 +1,12 @@
+Reading bookinfo.xml with SimpleXML
+asxml()); // Display attributes of the root element (bookinfo) // Display elements and their values echo "
+Elements and their values:
+"; foreach ($data->book as $book) { echo "Book Number: " . $book->bookno . "
+"; echo "Book Name: " . $book->bookname . "
+"; echo "Author Name: " . $book->authorname . "
+"; echo "Price: " . $book->price . "
+"; echo "Year: " . $book->year . "
+"; } echo "
+Attributes of the root element (bookinfo):
+"; foreach ($book->attributes() as $key => $value) { echo "$key: .$value.
+"; } ?>
