@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- link this css file for que 2 -->
+
+
+
+<!-- <?xml-stylesheet  type="text/css" href="item.css" ?> -->
+
+<!-- itemName
+
+{
+
+color: red;
+
+font-family: copperplate gothic light;
+
+font-size: 16pt;
+
+font: bold;
+
+}
+
+
+
+itemPrice
+
+{
+
+    color: yellow;
+
+     font-family: Arial, Helvetica, sans-serif;
+
+     font-size: 12pt;
+
+     font: bold;
+
+} -->
+
+
+
+<itemdetails>
+
+<item>
+
+<itemName>ball</itemName>
+
+<itemPrice>1000</itemPrice>
+
+<quantity>2</quantity>
+
+</item>
+
+
+
+<item>
+
+<itemName>bat</itemName>
+
+<itemPrice>1000</itemPrice>
+
+<quantity>1</quantity>
+
+</item>
+
+
+
+<item>
+
+<itemName>laptop</itemName>
+
+<itemPrice>50000</itemPrice>
+
+<quantity>2</quantity>
+
+</item>
+
+
+
+<item>
+
+<itemName>watch</itemName>
+
+<itemPrice>1000</itemPrice>
+
+<quantity>2</quantity>
+
+</item>
+
+
+
+<item>
+
+<itemName>car</itemName>
+
+<itemPrice>500000</itemPrice>
+
+<quantity>1</quantity>
+
+</item>
+
+
+
+</itemdetails>
